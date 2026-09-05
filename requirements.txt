@@ -1,0 +1,24 @@
+# Flask web framework
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# Production WSGI server
+gunicorn==21.2.0
+
+# Testing dependencies
+pytest==7.4.2
+pytest-flask==1.2.0
+pytest-cov==4.1.0
+
+# Code quality tools
+flake8==6.1.0
+black==23.9.1
+
+# AWS SDK (optional, for AWS integrations)
+boto3==1.29.7
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# Logging and monitoring
+structlog==23.1.0
